@@ -1,0 +1,81 @@
+
+.titre-contact{
+  font-family: Playfair Display, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  text-align: center;
+  margin: 70px 0 10px;
+  color: #000;
+}
+.sous-titre-contact{
+  font-family: Playfair Display, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: center;
+  margin: 0px 0 70px;
+  color: #000;
+}
+
+.contact-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+}
+.box{
+  text-align: center;
+  width: 200px;
+}
+.box span{
+  font-size: 20px;
+}
+
+.box img{
+  display: block;
+  margin: 0 auto 10px;
+  width: 60px;
+}
+
+form{
+  width: 900px;
+  margin: 100px auto 50px;
+  box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 5px;
+}
+form h2{
+  font-family: Playfair Display, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-align: center;
+  margin: 0px 0 30px;
+  color: #000;
+}
+form .label{
+  display: block;
+  margin: 10px 0 10px 10px;
+}
+input, textarea{
+  width: 95%;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid #000;
+  font-size: 18px;
+}
+textarea{
+  height: 140px;
+}
+input{
+  height: 30px;
+  
+}
+form .check-group, form p{
+  display: inline-flex;
+  align-items: center;
+  margin: 0px 20px 0px 10px;
+}
+form button{
+  display: block;
+  width: 100px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 20px auto;
+}

@@ -1,6 +1,8 @@
 body {
   font-family: Open sans, Arial, Helvetica, sans-serif;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .grille-accueil {
   width: 100%;

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HERACLES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Playfair+Display&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <h2 class="titre-menu">Menu</h2>
+      <ul class="liste-menu">
+        <li class="item-nav"><a href="/">Accueil</a></li>
+        <li class="item-nav"><a href="/information.html">Informations</a></li>
+        <li class="item-nav"><a href="/portfolio.html">Tous nos biens</a></li>
+        <li class="item-nav"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <h1 class="titre-contact">Entrons en contact</h1>
+    <p class="sous-titre-contact">
+      Contactez-nous par mail, telephone ou par la poste
+    </p>
+    <div class="contact-items">
+      <div class="box">
+        <img src="assets/location.svg" />
+        <span>9 rue des neuveux, 9078 Paris</span>
+      </div>
+      <div class="box">
+        <img src="assets/phone.svg" />
+        <span>+237 658 359 950</span>
+      </div>
+      <div class="box">
+        <img src="assets/mail.svg" />
+        <span>primsidriss@gmail.com</span>
+      </div>
+    </div>
+    <form>
+      <h2>Partez-nous de vos envies.</h2>
+      <label class="label" for="firstname">Votre prenom</label>
+      <input
+        type="text"
+        name="firstname"
+        placeholder="Votre prenom"
+        id="firstname"
+      />
+      <label class="label" for="name">Votre nom</label>
+      <input type="text" placeholder="Votre nom" name="name" id="name" />
+      <label class="label" for="phone">Votre telephone</label>
+      <input
+        type="number"
+        placeholder="Votre telephone"
+        name="phone"
+        id="phone"
+      />
+      <p>Type de bien:</p>
+      <div class="check-group">
+        <label for="rent">Louer</label>
+        <input type="checkbox" value="rent" name="type" id="rent" />
+      </div>
+      <div class="check-group">
+        <label for="buy">Acheter</label>
+        <input type="checkbox" value="buy" name="type" id="buy" />
+      </div>
+      <label class="label" for="message">Message</label>
+      <textarea placeholder="Votre message"></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+    <footer>Tous droit reservé</footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
